@@ -1,13 +1,10 @@
 ---
 Checks: >
   -abseil-*,
-  
+
   android-*,
-
   boost-use-to-string,
-
   bugprone-*,
-
   # cert-dcl03-c, (redirects to misc-static-assert)
   # cert-dcl16-c, (redirects to readability-uppercase-literal-suffix)
   cert-dcl21-cpp,
@@ -23,15 +20,13 @@ Checks: >
   cert-err60-cpp,
   # cert-err61-cpp, (redirects to misc-throw-by-value-catch-by-reference)
   # cert-fio38-c, (redirects to misc-non-copyable-objects)
-  cert-flp30-c, 
+  cert-flp30-c,
   # cert-msc30-c, (redirects to cert-msc50-cpp)
   # cert-msc32-c, (redirects to cert-msc51-cpp)
   cert-msc50-cpp,
   cert-msc51-cpp,
   # cert-oop11-cpp, (redirects to performance-move-constructor-init)
-
   -clang-analyzer-*,
-
   # cppcoreguidelines-avoid-c-arrays, (redirects to modernize-avoid-c-arrays)
   cppcoreguidelines-avoid-goto,
   # cppcoreguidelines-avoid-magic-numbers, (redirects to readability-magic-numbers)
@@ -55,7 +50,6 @@ Checks: >
   cppcoreguidelines-pro-type-vararg,
   cppcoreguidelines-slicing,
   cppcoreguidelines-special-member-functions,
-
   -fuchsia-default-arguments,
   # fuchsia-header-anon-namespaces, (redirects to google-build-namespaces)
   fuchsia-multiple-inheritance,
@@ -64,7 +58,6 @@ Checks: >
   fuchsia-statically-constructed-objects,
   -fuchsia-trailing-return,
   fuchsia-virtual-inheritance,
-
   google-build-explicit-make-pair,
   google-build-namespaces,
   google-build-using-namespace,
@@ -81,7 +74,6 @@ Checks: >
   google-runtime-int,
   google-runtime-operator,
   google-runtime-references,
-
    # hicpp-avoid-c-arrays (redirects to modernize-avoid-c-arrays),
   hicpp-avoid-goto,
   # hicpp-braces-around-statements (redirects to readability-braces-around-statements),
@@ -112,12 +104,10 @@ Checks: >
   # hicpp-use-nullptr, (redirects to modernize-use-nullptr)
   # hicpp-use-override, (redirects to modernize-use-override)
   # hicpp-vararg, (redirects to cppcoreguidelines-pro-type-vararg)
-
   -llvm-header-guard,
   llvm-include-order,
   llvm-namespace-comment,
   -llvm-twine-local,
-
   misc-definitions-in-headers,
   misc-misplaced-const,
   misc-new-delete-overloads,
@@ -131,7 +121,6 @@ Checks: >
   misc-unused-alias-decls,
   -misc-unused-parameters,
   misc-unused-using-decls,
-
   modernize-avoid-bind,
   modernize-avoid-c-arrays,
   modernize-concat-nested-namespaces,
@@ -161,10 +150,8 @@ Checks: >
   modernize-use-transparent-functors,
   modernize-use-uncaught-exceptions,
   modernize-use-using,
-
   -mpi-*
   -objc-*,
-
   performance-faster-string-find,
   performance-for-range-copy,
   performance-implicit-conversion-in-loop,
@@ -177,9 +164,8 @@ Checks: >
   performance-type-promotion-in-math-fn,
   performance-unnecessary-copy-initialization,
   performance-unnecessary-value-param,
-
   portability-simd-intrinsics,
-  
+
   readability-avoid-const-params-in-decls,
   readability-braces-around-statements,
   readability-const-return-type,
@@ -212,7 +198,6 @@ Checks: >
   readability-string-compare,
   readability-uniqueptr-delete-release,
   -readability-uppercase-literal-suffix,
-
   zircon-temporary-objects
 WarningsAsErrors: '*'
 HeaderFilterRegex: ''
